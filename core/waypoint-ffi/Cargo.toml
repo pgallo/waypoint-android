@@ -1,0 +1,16 @@
+[package]
+name = "waypoint-ffi"
+description = "UniFFI boundary exposing the Waypoint engine to Kotlin"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "waypoint_ffi"
+
+[dependencies]
+waypoint-core.workspace = true
+thiserror.workspace = true
+uniffi.workspace = true

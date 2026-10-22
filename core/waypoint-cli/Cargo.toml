@@ -1,0 +1,10 @@
+[package]
+name = "waypoint-cli"
+description = "Host demo: two offline devices converge through a relay, plus a recorded track"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+waypoint-core.workspace = true

@@ -1,0 +1,6 @@
+[bindings.kotlin]
+package_name = "io.github.pgallo.waypoint.core"
+cdylib_name = "waypoint_ffi"
+# Use the Android system cleaner on API 34+ and annotate API-gated code.
+android = true
+kotlin_target_version = "2.1.21"
